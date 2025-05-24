@@ -1,4 +1,4 @@
-# Student Manager CRUD App
+# Student Manager CRUD Website
 
 A web app to manage student data using Node.js, Express, MongoDB, and a simple frontend.
 
