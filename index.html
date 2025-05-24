@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Student Manager</h1>
+
+  <form id="studentForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="text" id="rollNo" placeholder="Roll No" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <button type="submit">Add Student</button>
+  </form>
+
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Roll No</th>
+        <th>Email</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

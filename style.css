@@ -1,0 +1,76 @@
+:root {
+  --bg-color: #1e1e2f;
+  --card-bg: #2c2c3f;
+  --text-color: #ffffff;
+  --accent: #00bcd4;
+  --danger: #e91e63;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: var(--accent);
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 180px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: var(--accent);
+  border: none;
+  color: var(--text-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #028fa1;
+  transform: scale(1.05);
+}
+
+table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #444;
+}
+
+th {
+  background-color: var(--accent);
+  color: var(--bg-color);
+}
+
+tr:hover {
+  background-color: #3a3a50;
+}
